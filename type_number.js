@@ -12,3 +12,5 @@ while(c<=11-1){
     console.log(numero+' X '+c+' = '+math);
     c++;
 }
+
+console.log('ola mundo');
