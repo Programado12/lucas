@@ -1,8 +1,3 @@
-const senha=22;
-let msenha=0;
-
-while(msenha != senha){
-    msenha++;
-
-}
-console.log(msenha);
+const n1 = 1234;
+const n2 ="1234";
+console.log(n1 +    Number(n2));
