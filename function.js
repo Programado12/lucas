@@ -1,4 +1,4 @@
-function soma(number1,number2){
-    return number1 + number2 ;
+function nomeCpf(nome,cpf){
+    return 'meu nome é ${nome}'
+
 }
-console.log(soma(57,98));
