@@ -30,7 +30,8 @@ cliente.endereço.push(
 }
 
 )
-const listaDeApartamnetos=cliente.endereço.filter((endereço)=> endereço.apartamento===true);
-
-
-console.log(listaDeApartamnetos)
+for (let chave in cliente){
+    let tipo = typeof cliente[chave];
+    if(tipo != `object` && tipo != ` function`)
+    console.log(`A chave ${chave} tem o valor ${cliente[chave]}`)
+}
